@@ -1,0 +1,111 @@
+.root {
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* card items */
+
+.my-card-content {
+  padding: 8px;
+}
+
+.my-card {
+  margin: auto;
+  height: 100px;
+  width: 350px;
+  display: grid;
+  grid-template-columns: 130px 130px 70px;
+  grid-template-rows: 40px 10px 50px;
+  background: white;
+  /* color:#ffa45b; */
+}
+
+.stockTitle,
+.stockSymbol {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background: #bce6eb;
+  color: #ffffff;
+}
+
+.stockCurPrice {
+  grid-column: 1/3;
+  grid-row: 3/-1;
+  width: 40px;
+  height: 10px;
+  margin-left: 40px;
+  color: #ffa45b;
+}
+
+.stockPriceChange {
+  grid-column: 3/3;
+  grid-row: 3/3;
+}
+
+.stockPercentChange {
+  grid-column: 3/3;
+  grid-row: 1/3;
+}
+
+/* styling a component */
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 0.5fr 0.5fr 0.1fr;
+}
+.select {
+  /* margin: auto; */
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.card {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+.form {
+  grid-column: 2/3;
+  grid-row: 4/4;
+}
+
+/* FORM */
+
+.formComponent {
+  display: grid;
+  grid-template-columns: 115px 120px 115px;
+  grid-template-rows: 100px 100px 20px;
+}
+.disabledSymbolField {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 100px;
+}
+.buyPriceTextField {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.quantityTextField {
+  grid-column: 3/3;
+  grid-row: 1/3;
+}
+.btnForm {
+  grid-column: 3/3;
+  grid-row: 2/3;
+}
+
+/* Portfolio */
+
+.portfolioMain {
+  height: 200px;
+}
+
+.PortfolioProfitLossCard {
+  padding-top: 100px;
+}
