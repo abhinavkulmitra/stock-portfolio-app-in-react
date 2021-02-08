@@ -1,2 +1,3 @@
-# stock-portfolio-app-in-react
-Created with CodeSandbox
+# Stock Portfolio App in React
+
+
